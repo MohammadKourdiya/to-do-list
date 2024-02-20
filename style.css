@@ -1,0 +1,136 @@
+body{
+    background-color: #352f5b;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, #352f5b, rgb(255, 255, 255, 0.19));
+}
+
+header h1{
+    
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 4.3em;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task{
+    display: flex;
+    margin: 20px;
+    width: 60em;
+    justify-content: space-between;
+    background: rgba(172, 214, 221, 0.25);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-bottom: 3px solid #fff;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.task p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.icon-star{
+    width: 27px;
+    padding-left: 10px;
+
+}
+
+.icon:hover{
+    font-size: 26px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon-star, .icon-trash{
+    opacity: 0.4;
+    font-size: 27px;
+}
+
+.icon-star:hover{
+    color: orange;
+    opacity: 1;
+    font-size: 29px;
+}
+
+
+.icon-angry2{
+    color: yellow;
+    font-size: 25px;
+    padding: 0px 20px 0px 10px;
+
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.col h2{
+    font-size: 40px;
+}
+
+.col1 input{
+    margin-left: 90px;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+.col1{
+    display: flex;
+    align-items: center;
+}
+button{all: unset;}
+
+.icon-upload{
+
+    margin: 25px;
+    font-size: 40px;
+}
+
+
+
+.icon-upload:hover{
+
+    color:aqua;
+    font-size: 45px;
+}
+
+
+.icon-heart{
+font-size: 27px;
+color: red;
+margin-right: 20px;
+
+}
+
+
+.dn{
+    display: none;
+
+}
+
+.star{
+    color: orange;
+    opacity: 1;
+}
